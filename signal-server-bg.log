@@ -1,0 +1,57 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/root/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/root/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Using jgitver configuration file: /root/Signal-Server/.mvn/jgitver.config.xml
+[INFO] Using jgitver-maven-plugin [1.9.0] (sha1: 410af24b23bf392ebb2810475800189c6d881817)
+[INFO]     version '0.0.0-dirty-SNAPSHOT' computed in 907 ms
+[INFO] 
+[INFO] Scanning for projects...
+[INFO] jgitver-maven-plugin is about to change project(s) version(s)
+[INFO]     org.whispersystems.textsecure::TextSecureServer::JGITVER -> 0.0.0-dirty-SNAPSHOT
+[INFO]     org.whispersystems.textsecure::api-doc::JGITVER -> 0.0.0-dirty-SNAPSHOT
+[INFO]     org.whispersystems.textsecure::integration-tests::JGITVER -> 0.0.0-dirty-SNAPSHOT
+[INFO]     org.whispersystems.textsecure::service::JGITVER -> 0.0.0-dirty-SNAPSHOT
+[INFO]     org.whispersystems.textsecure::websocket-resources::JGITVER -> 0.0.0-dirty-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 5.15
+[INFO] os.detected.version.major: 5
+[INFO] os.detected.version.minor: 15
+[INFO] os.detected.release: ubuntu
+[INFO] os.detected.release.version: 22.04
+[INFO] os.detected.release.like.ubuntu: true
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] 
+[INFO] ---------------< org.whispersystems.textsecure:service >----------------
+[INFO] Building service 0.0.0-dirty-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.whispersystems.textsecure:websocket-resources:jar:0.0.0-dirty-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.776 s
+[INFO] Finished at: 2025-07-26T11:50:49+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project service: Could not resolve dependencies for project org.whispersystems.textsecure:service:jar:0.0.0-dirty-SNAPSHOT
+[ERROR] dependency: org.whispersystems.textsecure:websocket-resources:jar:0.0.0-dirty-SNAPSHOT (compile)
+[ERROR] 	Could not find artifact org.whispersystems.textsecure:websocket-resources:jar:0.0.0-dirty-SNAPSHOT
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

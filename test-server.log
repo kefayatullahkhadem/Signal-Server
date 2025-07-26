@@ -1,0 +1,2 @@
+Error: Could not find or load main class org.whispersystems.textsecuregcm.WhisperServerService
+Caused by: java.lang.NoClassDefFoundError: io/dropwizard/core/Application
